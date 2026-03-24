@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|c:\\users\\roood\\desktop\\inventario.sis\\inventario.sis\\views\\asignacion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|solutionrelative:inventario.sis\\views\\asignacion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|c:\\users\\roood\\desktop\\inventario.sis\\inventario.sis\\models\\insumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|solutionrelative:inventario.sis\\models\\insumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|c:\\users\\roood\\desktop\\inventario.sis\\inventario.sis\\models\\impresora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|solutionrelative:inventario.sis\\models\\impresora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|c:\\users\\roood\\desktop\\inventario.sis\\inventario.sis\\models\\computadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|solutionrelative:inventario.sis\\models\\computadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|c:\\users\\roood\\desktop\\inventario.sis\\inventario.sis\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|solutionrelative:inventario.sis\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|c:\\users\\roood\\desktop\\inventario.sis\\inventario.sis\\views\\asignacion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|solutionrelative:inventario.sis\\views\\asignacion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|c:\\users\\roood\\desktop\\inventario.sis\\inventario.sis\\views\\impresora\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|solutionrelative:inventario.sis\\views\\impresora\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5B6C3CD-DD37-489F-BBDD-C44EAC103A4C}|Inventario.Sis\\Inventario.Sis.csproj|c:\\users\\roood\\desktop\\inventario.sis\\inventario.sis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -43,31 +59,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Insumo.cs",
+              "DocumentMoniker": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\Inventario.Sis\\Models\\Insumo.cs",
+              "RelativeDocumentMoniker": "Inventario.Sis\\Models\\Insumo.cs",
+              "ToolTip": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\Inventario.Sis\\Models\\Insumo.cs",
+              "RelativeToolTip": "Inventario.Sis\\Models\\Insumo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T15:08:37.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Impresora.cs",
+              "DocumentMoniker": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\Inventario.Sis\\Models\\Impresora.cs",
+              "RelativeDocumentMoniker": "Inventario.Sis\\Models\\Impresora.cs",
+              "ToolTip": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\Inventario.Sis\\Models\\Impresora.cs",
+              "RelativeToolTip": "Inventario.Sis\\Models\\Impresora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T15:08:35.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Computadora.cs",
+              "DocumentMoniker": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\Inventario.Sis\\Models\\Computadora.cs",
+              "RelativeDocumentMoniker": "Inventario.Sis\\Models\\Computadora.cs",
+              "ToolTip": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\Inventario.Sis\\Models\\Computadora.cs",
+              "RelativeToolTip": "Inventario.Sis\\Models\\Computadora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T15:08:30.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\Inventario.Sis\\Views\\Impresora\\Index.cshtml",
+              "RelativeDocumentMoniker": "Inventario.Sis\\Views\\Impresora\\Index.cshtml",
+              "ToolTip": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\Inventario.Sis\\Views\\Impresora\\Index.cshtml",
+              "RelativeToolTip": "Inventario.Sis\\Views\\Impresora\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T14:06:05.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\Inventario.Sis\\Views\\Asignacion\\Index.cshtml",
               "RelativeDocumentMoniker": "Inventario.Sis\\Views\\Asignacion\\Index.cshtml",
               "ToolTip": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\Inventario.Sis\\Views\\Asignacion\\Index.cshtml",
               "RelativeToolTip": "Inventario.Sis\\Views\\Asignacion\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-24T04:46:23.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\Inventario.Sis\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Inventario.Sis\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\Inventario.Sis\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Inventario.Sis\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABMAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T04:43:10.626Z"
+              "WhenOpened": "2026-03-24T04:43:10.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\Inventario.Sis\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Inventario.Sis\\Properties\\launchSettings.json",
@@ -79,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\roood\\Desktop\\Inventario.Sis\\Inventario.Sis\\appsettings.json",
               "RelativeDocumentMoniker": "Inventario.Sis\\appsettings.json",
