@@ -1,0 +1,50 @@
+﻿@model List<Inventario.Sis.Models.Impresora>
+
+<div>
+    <h1>Ingresar Impresora</h1>
+    <form method="post" asp-action="Create">
+        <div class="mb-2">
+            <label class="form-label">Marca y serie:</label>
+            <input type="text" name="Marca" class="form-control" />
+
+            @* <label class="form-label">Serie:</label>
+            <input type="text" name="Serie" class="form-control" /> *@
+
+            <label class="form-label">Tipo de Tinta:</label>
+            <input type="text" name="Tipotinta" class="form-control" />
+
+            <label class="form-label">Observación:</label>
+            <input type="text" name="Observacion" class="form-control" />
+        </div>
+        <div>
+            <button type="submit" class="btn btn-dark">Guardar</button>
+            <button type="button" class="btn btn-dark">Editar</button>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+        </div>
+    </form>
+</div>
+
+<div class="mt-5">
+    <h1>Impresoras Registradas</h1>
+    <table class="table table-hover table-sm">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Marca Y Serie</th>
+                <th>Tinta</th>
+                <th>Observación</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var impresora in Model)
+            {
+                <tr>
+                    <td>@impresora.IdImpresora</td>
+                    <td>@impresora.Marca</td>
+                    <td>@impresora.Tipotinta</td>
+                    <td>@impresora.Observacion</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

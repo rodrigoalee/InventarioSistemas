@@ -1,0 +1,42 @@
+﻿@model List<Inventario.Sis.Models.Usuario>
+<div>
+    <h1>Ingresar Usuario</h1>
+    <form method="post" asp-action="Create">
+        <div class="mb-2">
+            <label id="txtNombre" class="form-label">Nombre:</label>
+            <input type="text" name="Nombre" class="form-control"/>
+            <label id="txtArea"class="form-label">Area:</label>
+            <input type="text" name="Area" class="form-control"/>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-dark">Guardar</button>
+            <buton class="btn btn-dark">Editar</buton>
+            <button class="btn btn-danger">Eliminar</button>
+        </div>
+    </form>
+</div>
+
+<div>
+    <h1>Usuarios Registrados</h1>
+    <table class="table table-hover table-sm">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Area</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var usuario in Model)
+            {
+                <tr>
+                    <td>@usuario.Idusuario</td>
+                    <td>@usuario.Nombre</td>
+                    <td>@usuario.Area</td>
+                </tr>
+            }
+        </tbody>
+
+
+    </table>
+</div>

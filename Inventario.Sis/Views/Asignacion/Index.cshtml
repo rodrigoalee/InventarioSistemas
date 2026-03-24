@@ -1,0 +1,83 @@
+﻿@model List<Inventario.Sis.Models.Asignacion>
+
+<div class="container-fluid">
+    <h1>Asiganción de Equipos</h1>
+    <form method="post" asp-action="Create">
+        <div class="row">
+            <div class="col-md-6 mb-2">
+                <label class="form-label">Usuario:</label>
+                <select name="Idusuario" class="form-control" asp-items="ViewBag.Usuarios">
+                    <option value="">Seleccionar Usuario</option>
+                </select>
+
+                <label class="form-label mt-2">Computadora:</label>
+                <select name="IdCompu" class="form-control" asp-items="ViewBag.Computadoras">
+                    <option value="">Seleccionar Computadora</option>
+                </select>
+
+                <label class="form-label mt-2">Monitor:</label>
+                <select name="IdMonitor" class="form-control" asp-items="ViewBag.Monitores">
+                    <option value="">Seleccionar Monitor</option>
+                </select>
+            </div>
+            <div class="col-md-6 mb-2">
+                <label class="form-label">Impresora:</label>
+                <select name="IdImpresora" class="form-control" asp-items="ViewBag.Impresoras">
+                    <option value="">Seleccionar Impresora</option>
+                </select>
+
+                <label class="form-label mt-2">Periférico:</label>
+                <select name="Idperiferico" class="form-control" asp-items="ViewBag.Perifericos">
+                    <option value="">Seleccionar Periférico</option>
+                </select>
+
+                <label class="form-label mt-2">UPS:</label>
+                <select name="IdUps" class="form-control" asp-items="ViewBag.Ups">
+                    <option value="">Seleccionar UPS</option>
+                </select>
+            </div>
+            <div class="col-12 mt-2">
+                <label class="form-label">Observación:</label>
+                <textarea name="Observacion" class="form-control" rows="2"></textarea>
+            </div>
+        </div>
+        <div class="mt-3">
+            <button type="submit" class="btn btn-dark">Guardar Asignación</button>
+            <button type="button" class="btn btn-dark">Editar</button>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+        </div>
+    </form>
+</div>
+
+<div class="mt-5">
+    <h2>Asignaciones Registradas</h2>
+    <div class="table-responsive">
+        <table class="table table-hover table-sm">
+            <thead>
+                <tr>
+                    <th>Usuario</th>
+                    <th>Equipo</th>
+                    <th>Monitor</th>
+                    <th>Impresora</th>
+                    <th>Periférico</th>
+                    <th>UPS</th>
+                    <th>Observación</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.IdusuarioNavigation?.Nombre</td>
+                        <td>@item.IdCompuNavigation?.NombreEquipo</td>
+                        <td>@item.IdMonitorNavigation?.Marca</td>
+                        <td>@item.IdImpresoraNavigation?.Marca</td>
+                        <td>@item.IdperifericoNavigation?.Marca</td>
+                        <td>@item.IdUpsNavigation?.Marca</td>
+                        <td>@item.Observacion</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
